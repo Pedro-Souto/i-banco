@@ -1,0 +1,39 @@
+creditar 1 100
+creditar 2 100
+creditar 3 100
+creditar 4 100
+creditar 5 100
+creditar 6 100
+creditar 7 100
+creditar 8 100
+creditar 9 100
+creditar 10 100
+simular 15
+lerSaldo 1
+lerSaldo 2
+lerSaldo 3
+lerSaldo 4
+lerSaldo 5
+lerSaldo 6
+lerSaldo 7
+lerSaldo 8
+lerSaldo 9
+lerSaldo 10
+creditar 10 100
+creditar 2 200
+creditar 4 15
+lerSaldo 1
+lerSaldo 2
+lerSaldo 3
+lerSaldo 4
+transferir 1 2 100
+lerSaldo 1
+lerSaldo 2
+transferir 1 3 100
+transferir 4 1 10
+transferir 1 4 10
+lerSaldo 1
+lerSaldo 2
+lerSaldo 3
+lerSaldo 4
+sair agora
