@@ -13,11 +13,17 @@
 #define ATRASO 1
 
 void inicializarContas();
+void abreLogFile();
+void fechaLogFile();
+void copyPasteFlush();
+void destroy_mutex_contas();
 int contaExiste(int idConta);
-int debitar(int idConta, int valor);
-int creditar(int idConta, int valor);
-int transferir(int idContaOrigem, int idContaDestino, int valor);
-int lerSaldo(int idConta);
+int debitar(int idConta, int valor, int id);
+int debitarSemMutex(int idConta, int valor, int id);
+int creditar(int idConta, int valor, int id);
+int creditarSemMutex(int idConta, int valor, int id);
+int transferir(int idContaOrigem, int idContaDestino, int valor, int id);
+int lerSaldo(int idConta, int id);
 void trataSignal(int sig);
 void simular(int numAnos);
 
